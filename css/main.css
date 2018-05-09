@@ -1,0 +1,40 @@
+body {
+    background-color: whitesmoke;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 75vh;
+    margin: 1.5em 1em;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: gainsboro;
+}
+
+.card img {
+    border-radius: 75%;
+    height: 25vh;
+}
+
+.card h3 {
+    font-family: 'Lato', helvetica;
+    font-size: 2em;
+    margin-bottom: 0.1em;
+}
+
+.card h4 {
+    font-family: 'Dosis', sans-serif;
+    color:grey;
+    font-size: 1.2em;
+}
+
+.card span {
+    font-family: 'Dosis', sans-serif;
+    color: grey;;
+    font-size: 1em;
+}
