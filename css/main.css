@@ -21,20 +21,55 @@ body {
     height: 25vh;
 }
 
-.card h3 {
+.info h3 {
     font-family: 'Lato', helvetica;
     font-size: 2em;
     margin-bottom: 0.1em;
 }
 
-.card h4 {
+.info h4 {
     font-family: 'Dosis', sans-serif;
     color:grey;
     font-size: 1.2em;
 }
 
-.card span {
+.info span {
     font-family: 'Dosis', sans-serif;
-    color: grey;;
+    color: grey;
     font-size: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    #employees {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-column-gap: 5%;
+        padding-left: 5%;
+    }
+
+    .card {
+        height: 30vh;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .card img {
+        height: 15vh;
+        align-self: middle;
+        margin-right: 5%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info h3 {
+        font-size: 1em;
+    }
+
+    .info h4 {
+        font-size: 1em;
+    }
+
 }
