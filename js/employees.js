@@ -24,7 +24,7 @@ function listEmployees(data) {
                                                     <h4>------</h4>
                                                     <h4 class="mobile">${employee.cell}</h4>
                                                     <h4 class="address">${employee.location.street}, ${employee.location.postcode}</4>
-                                                    <h4 class="brithday">Birthday: ${employee.dob.slice(0, 10)}</h4>
+                                                    <h4 class="brithday">Birthday: ${employee.dob.date.slice(0, 10)}</h4>
                                                 </div>
                                                 </div>
                                         </div>`).join("");
